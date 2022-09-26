@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Ejemplo Hora</title>
+    <script>
+        // Ejemplo que visualiza un reloj digital
+        function Ver_Hora(){
+            var mihora = new Date();
+            var horas = mihora.getHours().toString();
+            var minutos = mihora.getMinutes().toString();
+            if(minutos.length == 1) minutos = "0" + minutos;
+            var segundos = mihora.getSeconds().toString();
+            if(segundos.length==1) segundos = "0" + segundos;
+            document.forms[0].mireloj.value = horas + ":" + minutos + ":" + segundos;
+        }
+    </script>
+    <style>
+        h1{
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: red;
+            font-weight: bold;
+        }
+
+        input{
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            background-color: orange;
+            color:white;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <h1>Mi Reloj</h1>
+            <form class="form-control">
+                <p align="center">
+                    <input type="text" name="mireloj" disabled>
+                </p>
+            </form>
+            <script>
+                var r = setInterval("Ver_Hora()", 500);
+            </script>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
