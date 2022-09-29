@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Productos</title>
+</head>
+<body>
+  <header>
+    <div class="boxheader" id="boxheader">
+    <div class="container-fluid" id="boxheader2">
+    <a href="index.html"><img src="logo-compragamer.png" alt="CompraGamer" width="250" height="80"></a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar Productos" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+        
+        <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Leonardo Torrico
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Mi Cuenta</a></li>
+              <li><a class="dropdown-item" href="#">Cerrar Sesion</a></li>
+            </ul>
+        </li>
+        </ul>
+        <img src="carrito-de-compras.png" alt="" class="carrito">
+    </div>
+    </div>
+    <nav>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Principal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ayuda.html">Ayuda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sponsor.html">Marca Sponsor</a>
+            </li>
+          </ul>
+    </nav>
+</header>
+<div class="boxcontainer">
+<aside>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Mothers
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><a href="">Mothers AMD</a></div>
+            <div class="accordion-body"><a href="">Mothers Intel</a></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Procesadores
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><a href="">Procesadores AMD</a></div>
+            <div class="accordion-body"><a href="">Procesadores Intel</a></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Placa de Video
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><a href="">Placa de Video GeForce</a></div>
+            <div class="accordion-body"><a href="">Placas de Video Radeon AMD</a></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                Almacenamiento
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><a href="">Discos Rigidos Externos</a></div>
+              <div class="accordion-body"><a href="">Discos Rigidos Internos</a></div>
+              <div class="accordion-body"><a href="">Discos Solidos SSD</a></div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                Memorias Ram
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><a href="">Memorias</a></div>
+              <div class="accordion-body"><a href="">Memorias Sodimm</a></div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                Gabinetes y Fuentes
+              </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><a href="">Gabinetes</a></div>
+              <div class="accordion-body"><a href="">Fuentes de alimentacion</a></div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSeven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                Monitores, Teclados y Mouse
+              </button>
+            </h2>
+            <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><a href="">Monitores</a></div>
+              <div class="accordion-body"><a href="">Mouses</a></div>
+              <div class="accordion-body"><a href="">Mouse Pad</a></div>
+              <div class="accordion-body"><a href="">Teclados</a></div>
+              <div class="accordion-body"><a href="">Combos de Teclados, Mouse y Otros</a></div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="descargalistaprecios" style="color: rgb(255, 0, 0);">
+        <h6>Descarga nuestro listado de precios</h6>
+        <a href="ListaPrecios.xlsx" download="ListaPrecios.xlsx"><img src="img/Descarga.png"></a>
+    </div>
+    <br><br>
+    <div class="consultaenvio">
+      <button class="btn btn-primary" onclick="envio()">Consultar Envio</button>
+      <p id="textoenvio" style="color: rgb(252, 2, 243); background-color: black; text-align: center;"></p>
+    </div>
+</aside>
+<main>
+    <div class="card-group">
+        <div class="card">
+            <img src="img/Mother_ASUS_PRIME_A520M-A_II_CSM.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mother ASUS PRIME A520M-A II/CSM AM4</h5>
+                <span class="precio"> $&nbsp;16.830 </span>
+                <br><br>
+                <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+              </div>
+        </div>
+        <div class="card">
+              <img src="img/Mother_ASUS_PRIME_A520M.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mother ASUS PRIME A520M-K AM4</h5>
+                <span class="precio"> $&nbsp;15.100 </span>
+                <br><br>
+                <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+              </div>
+        </div>
+        <div class="card">
+              <img src="img/Mother_ASUS_TUF_B550M-PLUS_WiFi_II.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mother ASUS TUF B550M-PLUS WiFi II AM4</h5>
+                <span class="precio"> $&nbsp;36.700 </span>
+                <br><br>
+                <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+              </div>
+        </div>
+    </div>
+    <div class="card-group">
+        <div class="card">
+            <img src="img/Mother_ASUS_ROG_STRIX_Z590-E.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mother ASUS ROG STRIX Z590-E GAMING Wifi Socket 1200 10th/11th Gen</h5>
+                <span class="precio"> $&nbsp;56.210 </span>
+                <br><br>
+                <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+              </div>
+        </div>
+        <div class="card">
+              <img src="img/Mother_Gigabyte_H470M_DS3H.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mother Gigabyte H470M DS3H Socket 1200</h5>
+                <span class="precio"> $&nbsp;22.330 </span>
+                <br><br>
+                <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+              </div>
+        </div>
+        <div class="card">
+              <img src="img/Mother_ASUS_PRIME_H410M-E.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mother ASUS PRIME H410M-E Socket 1200 10th Gen</h5>
+                <span class="precio"> $&nbsp;13.800 </span>
+                <br><br>
+                <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+              </div>
+        </div>
+    </div>
+    <div class="card-group">
+        <div class="card">
+            <img src="img/Procesador_AMD_Ryzen_3_3200G_4.0GHz_Turbo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Procesador AMD Ryzen 3 3200G 4.0GHz Turbo + Radeon Vega 8 AM4 OEM sin Cooler</h5>
+                <span class="precio"> $&nbsp;22.500 </span>
+                <br><br>
+                <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+              </div>
+        </div>
+        <div class="card">
+              <img src="img/Procesador_AMD_Ryzen_5_5600X_4.6GHz.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Procesador AMD Ryzen 5 5600X 4.6GHz Turbo AM4 + Wraith Stealth Cooler</h5>
+                <span class="precio"> $&nbsp;44.500 </span>
+                <br><br>
+                <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+              </div>
+        </div>
+        <div class="card">
+              <img src="img/Procesador_AMD_Ryzen_7_5800X3D_4.5GHz.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Procesador AMD Ryzen 7 5800X3D 4.5GHz Turbo AM4</h5>
+                <span class="precio"> $&nbsp;82.950 </span>
+                <br><br>
+                <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+              </div>
+        </div>
+    </div>
+    <div class="card-group">
+        <div class="card">
+            <img src="img/Procesador_Intel_Core_i3_12100_12th.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Procesador Intel Core i3 12100 12th Gen S1700</h5>
+                <span class="precio"> $&nbsp;29.250 </span>
+                <br><br>
+                <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+              </div>
+        </div>
+        <div class="card">
+              <img src="img/Procesador_Intel_Core_i5_12600KF_4.90GHz.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Procesador Intel Core i5 12600KF 4.90GHz Turbo Socket 1700</h5>
+                <span class="precio"> $&nbsp;51.650 </span>
+                <br><br>
+                <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+              </div>
+        </div>
+        <div class="card">
+              <img src="img/Procesador_Intel_Core_i7_12700K_5.0GHz.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Procesador Intel Core i7 12700K 5.0GHz Turbo Socket 1700</h5>
+                <span class="precio"> $&nbsp;95.400 </span>
+                <br><br>
+                <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+              </div>
+        </div>
+    </div>
+    <div class="card-group">
+      <div class="card">
+          <img src="img/Placa_de_Video_ASUS_GeForce_GTX_1660_SUPER_6GB_GDDR6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Placa de Video ASUS GeForce GTX 1660 SUPER 6GB GDDR6 Phoenix OC </h5>
+              <span class="precio"> $&nbsp;80.900 </span>
+              <br><br>
+              <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+            </div>
+      </div>
+      <div class="card">
+            <img src="img/Placa_de_Video_ASUS_GeForce_GTX_1660_TI_6GB_GDDR6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Placa de Video ASUS GeForce GTX 1660 TI 6GB GDDR6 TUF EVO OC </h5>
+              <span class="precio"> $&nbsp;92.450 </span>
+              <br><br>
+              <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+            </div>
+      </div>
+      <div class="card">
+            <img src="img/Placa_de_Video_Zotac_GeForce_GTX_1660_SUPER_6GB_GDDR6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Placa de Video Zotac GeForce GTX 1660 SUPER 6GB GDDR6 Twin Fan</h5>
+              <span class="precio"> $&nbsp;87.650 </span>
+              <br><br>
+              <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+            </div>
+      </div>
+  </div>
+  <div class="card-group">
+    <div class="card">
+        <img src="img/Placa_de_Video_Asrock_Radeon_RX_570_4GB.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Placa de Video Asrock Radeon RX 570 4GB Phantom Gaming D</h5>
+            <span class="precio"> $&nbsp;45.900 </span>
+            <br><br>
+            <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+          </div>
+    </div>
+    <div class="card">
+          <img src="img/Placa_de_Video_Asrock_RX_570_8GB_GDDR5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Placa de Video Asrock RX 570 8GB GDDR5 Phantom Gaming Elite</h5>
+            <span class="precio"> $&nbsp;47.500 </span>
+            <br><br>
+            <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+          </div>
+    </div>
+    <div class="card">
+          <img src="img/Placa_de_Video_XFX_Radeon_RX_6500_XT_Black_4GB_GDDR6.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Placa de Video XFX Radeon RX 6500 XT Black 4GB GDDR6 Speedster QICK210</h5>
+            <span class="precio"> $&nbsp;52.500 </span>
+            <br><br>
+            <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+          </div>
+    </div>
+</div>
+
+<div class="card-group">
+  <div class="card">
+      <img src="img/Disco_Rigido_Externo_Seagate_Expansion_1TB.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Disco Rigido Externo Seagate Expansion 1TB USB 3.0</h5>
+          <span class="precio"> $&nbsp;9.099 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Disco_Rigido_Externo_Seagate_Expansion_2TB.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Disco Rigido Externo Seagate Expansion 2TB USB 3.0</h5>
+          <span class="precio"> $&nbsp;11.999 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Disco_Solido_Externo_Seagate_One_Touch_500GB.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Disco Solido Externo Seagate One Touch 500GB USB-C 1000MB/s</h5>
+          <span class="precio"> $&nbsp;14.890 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+</div>
+
+<div class="card-group">
+  <div class="card">
+      <img src="img/Disco_R__gido_Seagate_1TB_Barracuda_64MB_SATA_6GB.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Disco Rígido Seagate 1TB Barracuda 64MB SATA 6GB/s</h5>
+          <span class="precio"> $&nbsp;8.099 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Disco_R__gido_WD_1TB_BLUE_64MB_SATA_6.0GB.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Disco Rígido WD 1TB BLUE 64MB SATA 6.0GB/s</h5>
+          <span class="precio"> $&nbsp;8.199 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Disco_Rigido_WD_2TB_BLUE_256MB_SATA_6.0GB.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Disco Rigido WD 2TB BLUE 256MB SATA 6.0GB/s</h5>
+          <span class="precio"> $&nbsp;10.499 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+</div>
+
+<div class="card-group">
+  <div class="card">
+      <img src="img/Disco_S__lido_SSD_Kingston_960GB_A400_500MB.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Disco Sólido SSD Kingston 960GB A400 500MB/s</h5>
+          <span class="precio"> $&nbsp;16.220 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Disco_Solido_SSD_M.2_ADATA_1TB_SWORDFISH_1800MB.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Disco Solido SSD M.2 ADATA 1TB SWORDFISH 1800MB/s NVMe PCI-e x4</h5>
+          <span class="precio"> $&nbsp;19.290 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Disco_Solido_SSD_M.2_WD_1TB_Green_SN350_3200MB.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Disco Solido SSD M.2 WD 1TB Green SN350 3200MB/s NVMe PCI-E Gen3 x4</h5>
+          <span class="precio"> $&nbsp;16.990 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+</div>
+
+<div class="card-group">
+  <div class="card">
+      <img src="img/Memoria_GeiL_DDR4_16GB__2x8GB__3200MHz.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Memoria GeiL DDR4 16GB (2x8GB) 3200MHz Super Luce RGB</h5>
+          <span class="precio"> $&nbsp;15.650 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Memoria_GeiL_DDR4_16GB__2x8GB__3200MHz_Super_Luce_RGB_TUF_Edition.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Memoria GeiL DDR4 16GB (2x8GB) 3200MHz Super Luce RGB TUF Edition</h5>
+          <span class="precio"> $&nbsp;15.400 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Memoria_GeiL_DDR4_16GB__2x8GB__3600MHz.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Memoria GeiL DDR4 16GB (2x8GB) 3600MHz EVO X II RGB</h5>
+          <span class="precio"> $&nbsp;16.150 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+</div>
+
+<div class="card-group">
+  <div class="card">
+      <img src="img/Memoria_Crucial_DDR4_8GB_2666MHz_Basic_SODIMM.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Memoria Crucial DDR4 8GB 2666MHz Basic SODIMM tipo Notebook</h5>
+          <span class="precio"> $&nbsp;5.950 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Memoria_Patriot_Viper_DDR4_8GB_3200MHz_Steel_SODIMM.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Memoria Patriot Viper DDR4 8GB 3200MHz Steel SODIMM Notebook</h5>
+          <span class="precio"> $&nbsp;6.150 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Memoria_Team_DDR4_8GB_3200MHz_T-_Create_SODIMM.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Memoria Team DDR4 8GB 3200MHz T- Create SODIMM Notebook</h5>
+          <span class="precio"> $&nbsp;6.150 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+</div>
+
+<div class="card-group">
+  <div class="card">
+      <img src="img/Gabinete_Aerocool_Bolt_Black_RGB_Ventana_Acrilica_ATX.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Gabinete Aerocool Bolt Black RGB Ventana Acrilica ATX</h5>
+          <span class="precio"> $&nbsp;9.730 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Gabinete_ASUS_ROG_STRIX_Helios_Aluminum_Black_RGB.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Gabinete ASUS ROG STRIX Helios Aluminum Black RGB</h5>
+          <span class="precio"> $&nbsp;71.390 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Gabinete_ASUS_TUF_GT501_Vidrio_Templado_Black_3_x_Coolers_RGB.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Gabinete ASUS TUF GT501 Vidrio Templado Black 3 x Coolers RGB Aura Sync</h5>
+          <span class="precio"> $&nbsp;40.720 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+</div>
+
+<div class="card-group">
+  <div class="card">
+      <img src="img/Fuente_ASUS_ROG_THOR_850P_80_Plus_Platinum_850W.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Fuente ASUS ROG THOR 850P 80 Plus Platinum 850W Full modular</h5>
+          <span class="precio"> $&nbsp;38.900 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Fuente_ASUS_TUF_550w_80_Plus_Bronze_550B.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Fuente ASUS TUF 550w 80 Plus Bronze 550B</h5>
+          <span class="precio"> $&nbsp;16.970 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Fuente_Gamemax_1050W_80_Plus_Silver_Modular_GP-1050.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Fuente Gamemax 1050W 80 Plus Silver Modular GP-1050</h5>
+          <span class="precio"> $&nbsp;29.010 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+</div>
+
+<div class="card-group">
+  <div class="card">
+      <img src="img/Monitor_ASUS_27__Full_HD_HDMI_VGA_VA27EHE-J.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Monitor ASUS 27" Full HD HDMI VGA VA27EHE-J </h5>
+          <span class="precio"> $&nbsp;61.560 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Monitor_LG_27__TN_75Hz_AMD_FreeSync_Full_HD.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Monitor LG 27" TN 75Hz AMD FreeSync Full HD 27MK400H-B</h5>
+          <span class="precio"> $&nbsp;59.410 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Monitor_Samsung_27__T350H_FHD_IPS_75Hz.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Monitor Samsung 27" T350H FHD IPS 75Hz </h5>
+          <span class="precio"> $&nbsp;57.340 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+</div>
+
+<div class="card-group">
+  <div class="card">
+      <img src="img/Mouse_ASUS_ROG_STRIX_Evolve_RGB_Ambidiestro_y_Modular.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mouse ASUS ROG STRIX Evolve RGB Ambidiestro y Modular</h5>
+          <span class="precio"> $&nbsp;7.820 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Mouse_Glorious_Model_D_Minus_-_Matte_Black.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mouse Glorious Model D Minus - Matte Black</h5>
+          <span class="precio"> $&nbsp;8.040 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Mouse_Glorious_Model_D_Minus_-_Matte_White.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mouse Glorious Model D Minus - Matte White</h5>
+          <span class="precio"> $&nbsp;8.040 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+</div>
+
+
+<div class="card-group">
+  <div class="card">
+      <img src="img/Mouse_Pad_Logitech_200x230mm_Black.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mouse Pad Logitech 200x230mm Black</h5>
+          <span class="precio"> $&nbsp;1.450 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Mouse_Pad_Logitech_Studio_200x230mm_Blue_Gray.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mouse Pad Logitech Studio 200x230mm Blue Gray</h5>
+          <span class="precio"> $&nbsp;1.410 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Mouse_Pad_Marvo_Scorpion_G39_5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mouse Pad Marvo Scorpion G39</h5>
+          <span class="precio"> $&nbsp;1.360 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+</div>
+
+<div class="card-group">
+  <div class="card">
+      <img src="img/Teclado_Mecanico_Cooler_Master_CK530_RGB_Red.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Teclado Mecanico Cooler Master CK530 RGB Red Switch US</h5>
+          <span class="precio"> $&nbsp;13.960 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Teclado_Mecanico_HP_HyperX_Alloy_Origins_65_Switch_Red.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Teclado Mecanico HP HyperX Alloy Origins 65 Switch Red</h5>
+          <span class="precio"> $&nbsp;13.960 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Teclado_Mecanico_HP_HyperX_Origins_60_Pink_HX.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Teclado Mecanico HP HyperX Origins 60 Pink HX Red US</h5>
+          <span class="precio"> $&nbsp;14.060 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+</div>
+
+<div class="card-group">
+  <div class="card">
+      <img src="img/Combo_Redragon_S101-BA-1_4_en_1_Teclado_Harpe_RGB_Mouse_Centrophorus_Auriculares_Garuda_y_Mouse_Pad_Archelon.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Combo Redragon S101-BA-1 4 en 1 Teclado Harpe RGB Mouse Centrophorus Auriculares Garuda y Mouse Pad Archelon M</h5>
+          <span class="precio"> $&nbsp;7.900 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Combo_Redragon_Teclado_Kumara_K552_RGB___Mouse_Griffin_M607_White.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Combo Redragon Teclado Kumara K552 RGB + Mouse Griffin M607 White</h5>
+          <span class="precio"> $&nbsp;9.100 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+  <div class="card">
+        <img src="img/Combo_Teclado_y_Mouse_ASUS_TUF_Gaming_Battle_Box_Aura_Sync_RGB.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Combo Teclado y Mouse ASUS TUF Gaming Battle Box Aura Sync RGB</h5>
+          <span class="precio"> $&nbsp;10.000 </span>
+          <br><br>
+          <a href="" class="botonCarrito">SUMAR AL CARRITO</a>
+        </div>
+  </div>
+</div>
+</main>
+</div>
+<aside>
+  <div class="iralprincipio">
+    <a href="#boxheader"><img src="img/uparrow_arriba.png" alt="" class="flecha"></a>
+  </div>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://api.whatsapp.com/send?phone=+5493364203158&text=Necesito%20mas%20informacion%20sobre%20un%20producto" class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i></a>
+</aside>
+<footer>
+  <div class="contendor_padre_footer">
+    <div class="contenedorfooter">
+      <div class="fiscal">
+        <img src="DATAWEB.jpg" class="img_data">
+      </div>
+      <div class="ayuda">
+        <h4>Ayuda</h4>
+        <h6>Si tenés sugerencias o comentarios</h6>
+        <a target="_blank" class="contenedor_hijo_contacto" href="contacto.html" style="color: white;"> CONTACTANOS </a>
+      </div>
+      <div class="trabajo">
+        <a target="_blank" class="contenedor_hijo_contacto_link_trabajo" href="https://compragamer.hiringroom.com/jobs" style="color: white;">¡Trabajá con nosotros!</a><br>
+        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=Gt8hZfTtKEy3ibqQr_b9XNKr3i5wbSNOqEBfwBpUaF5UQlVLNk9KMkhKQjVYT1dMQlhRTEk1Wk5KMy4u" target="_blank" style="color: white;">Boton de arrepentimiento</a>
+      </div>
+      <div class="redes">
+        <h2>Seguinos en</h2>
+        <a target="_blank" class="red" href="https://twitter.com/CompraGamerOK" onclick="saliendo_sitio()">
+        <mat-icon role="img" svgicon="twitter" class="mat-icon notranslate icon-svg mat-icon-no-color" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"></path></svg>
+        </mat-icon>
+        </a>
+        <a target="_blank" class="contenedor__hijo__redes__red" href="https://www.youtube.com/c/CompraGamer" onclick="saliendo_sitio()">
+        <mat-icon  role="img" svgicon="youtube" class="mat-icon notranslate icon-svg mat-icon-no-color" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.234l4.917 2.338-4.917 2.346v-4.684z"></path>
+            </svg>
+        </mat-icon>
+        </a>
+        <a target="_blank" class="contenedor__hijo__redes__red" href="https://www.facebook.com/compragamer" onclick="saliendo_sitio()">
+            <mat-icon  role="img" svgicon="facebook" class="mat-icon notranslate icon-svg mat-icon-no-color" aria-hidden="true">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 167.657 167.657" style="enable-background:new 0 0 167.657 167.657;" xml:space="preserve" fit="" height="100%" width="100%" preserveAspectRatio="xMidYMid meet" focusable="false">
+                    <path d="M83.829,0.349C37.532,0.349,0,37.881,0,84.178c0,41.523,30.222,75.911,69.848,82.57v-65.081H49.626
+                    v-23.42h20.222V60.978c0-20.037,12.238-30.956,30.115-30.956c8.562,0,15.92,0.638,18.056,0.919v20.944l-12.399,0.006
+                    c-9.72,0-11.594,4.618-11.594,11.397v14.947h23.193l-3.025,23.42H94.026v65.653c41.476-5.048,73.631-40.312,73.631-83.154
+                    C167.657,37.881,130.125,0.349,83.829,0.349z"></path>
+                </svg>
+            </mat-icon>
+        </a>
+        <a target="_blank" class="contenedor__hijo__redes__red" href="https://www.instagram.com/compragamer_oficial/" onclick="saliendo_sitio()">
+            <mat-icon  role="img" svgicon="instagram" fill="#FFFFFF" class="mat-icon notranslate icon-svg mat-icon-no-color" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                <path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"></path>
+            </svg>
+            </mat-icon>
+        </a>
+      </div>
+    </div>
+    <br><br>
+    <div class="derechosreservados">
+      <label>Copyright ©2022 Derechos reservados | Analyst System - Leonardo Torrico.</label> 
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="envio.js"></script>
+</body>
+</html>

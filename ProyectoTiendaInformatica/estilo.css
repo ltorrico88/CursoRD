@@ -1,0 +1,212 @@
+.carrito{
+    width: 22px;
+    height: 22px;
+}
+
+.boxheader{
+    margin-top: 20px;
+    margin-left: 370px;
+    margin-right: 320px;
+}
+
+#boxheader2{
+    display: grid;
+    grid-template-columns: 380px 650px 145px 20px;
+    grid-template-rows: 40px 10px 10px 10px;
+    gap: 8px;
+}
+
+footer{
+    
+    height: 200px;
+    background-color: rgb(255, 123, 0);
+}
+
+.contendor_padre_footer{
+ 
+    margin-left: 260px;
+    margin-right: 140px;
+    padding-top: 20px;
+    
+}
+
+.contenedorfooter{
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+nav{
+
+  height: 70px;
+  background-color: rgb(255, 123, 0);
+
+}
+
+a{
+    margin-top: 10px;
+}
+
+/* modificacion personalizada sobre el paquete bootstrap */
+
+.nav-link{
+    color: black;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+/*- -------------------------------------------------------*/
+
+section{
+    
+    margin-left: 260px;
+    margin-right: 260px;
+    
+}
+
+svg{
+    width: 40px;
+    height: 40px;
+}
+
+.img_data{
+    width: 70px;
+    height: 90px;
+}
+
+
+.contenedor_hijo_contacto{
+    text-align: center;
+    text-decoration: none;
+    font: 500 13px/15px Montserrat,sans-serif !important;
+    border: 1px solid hsla(0,0%,100%,.3215686274509804);
+    border-radius: 5px;
+    max-width: 150px;
+    padding: 5px;
+}
+
+.contenedor_hijo_contacto_link_trabajo{
+    text-align: center;
+    text-decoration: none;
+    font: 500 13px/15px Montserrat,sans-serif !important;
+    border: 1px solid hsla(0,0%,100%,.3215686274509804);
+    border-radius: 5px;
+    max-width: 150px;
+    padding: 5px;
+    display: block;
+    max-width: 200px;
+}
+
+
+.boxcontainer{
+
+    margin-top: 10px;
+    margin-left: 350px;
+    margin-right: 320px;
+    margin-bottom: 10px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto;
+    
+}
+
+
+.precio {
+
+    font: 400 24px/30px Montserrat,sans-serif;
+    color: #4472b5;
+
+}
+
+
+.botonCarrito{
+   
+    border: 1px solid #2e518b; 
+    padding: 10px; 
+    background-color: #2e518b; 
+    color: #ffffff; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Helvetica', sans-serif; 
+    border-radius: 50px; 
+
+}
+
+.card{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#somos{
+    text-align: center;
+}
+
+.videos{
+    text-align: center;
+}
+
+.sponsor{
+    width: 700px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+table{
+    text-align: center;
+}
+
+.imagenOrganigrama{
+    width: 80px;
+    height: 80px;
+}
+
+/* estilo de icono whatsapp */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.iralprincipio{
+    margin-left: 1700px;
+}
+
+body{
+    background-image: url('img/fondoAC.jpg');
+}
+
+#parrafo{
+    color: rgb(224, 101, 0);
+}
+
+.derechosreservados{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
